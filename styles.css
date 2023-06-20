@@ -1,0 +1,273 @@
+/**
+ * Center the header
+ *
+ * @format
+ */
+
+header {
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Style for the navigation links */
+nav a {
+  margin: 0 10px;
+  color: black;
+  text-decoration: none;
+}
+
+/* Style for the login button */
+.login-button {
+  color: blue;
+  text-decoration: none;
+}
+
+/* Style for the "Try for Free" button */
+.try-button {
+  background-color: blue;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+/*footer */
+/*footer */
+/* Center the footer */
+footer {
+  text-align: center;
+  margin: 40px;
+}
+
+/* Style for footer blocks */
+.footer-block {
+  display: inline-block;
+  margin-right: 20px;
+  text-align: left;
+  vertical-align: top; /* Add this line to align the blocks at the top */
+}
+
+/* Style for the footer icons */
+.footer-block-icons img {
+  width: 30px; /* Adjust the width as needed */
+  margin-right: 5px;
+}
+
+/* Style for the footer text */
+.footer-text {
+  text-align: right;
+  margin-top: 20px;
+}
+
+/* Reduce spacing between items in Solutions block */
+.footer-block h3 {
+  font-weight: bold;
+  margin: 0; /* Remove the vertical margin */
+}
+
+.footer-block p {
+  margin: 0; /* Remove the vertical margin */
+  line-height: 1; /* Add this line to prevent line-height spacing */
+}
+
+/* url testing section */
+.rectangle {
+  width: max;
+  height: 500px;
+  background-image: url("./asset/icons/formbackground.png");
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.rectangle2 {
+  width: max;
+  height: 500px;
+  background-image: url("./asset/icons/formbackground.png");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+form {
+  margin-top: 20px;
+}
+
+input[type="text"] {
+  width: 200px;
+  padding: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.inputboxback {
+  background-color: white;
+  height: 300px;
+  width: 456px;
+  border-radius: 10px;
+  padding: 40px;
+}
+
+.blue-input {
+  border: 2px solid #3284ff;
+  /* padding: 10px; */
+  border-radius: 10px;
+  height: 37px;
+}
+
+.blue-input::placeholder {
+  color: blue;
+}
+.terms-and-conditions {
+  color: blue;
+}
+
+.trimsubmitbtn {
+  background-color: #005ae2;
+  border-radius: 30px;
+  width: 95%;
+  height: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.getstarted1 {
+  background-color: #005ae2;
+  border-radius: 30px;
+  width: 200px;
+  height: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* faq */
+.card-section {
+  margin: 150px;
+}
+
+.card {
+  margin-bottom: 50px;
+}
+
+.card-title {
+  margin: 10;
+  text-align: left;
+}
+
+.card-divider {
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+.price-card-content {
+  margin-bottom: 10px;
+}
+
+.faq-title {
+  margin-top: 10;
+  text-align: center;
+}
+
+/* pricnig section */
+.price-title {
+  margin-right: 75;
+  margin-left: 75;
+  text-align: center;
+}
+
+.pricing-section {
+  display: flex;
+  justify-content: space-between;
+  margin: 200px;
+}
+
+.pricing-card {
+  flex: 1;
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  align-items: center;
+  justify-content: center;
+  /* flex: content; */
+  padding: 70;
+  margin: 50;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 350px; 
+}
+
+.pricing-features {
+  list-style: none;
+  padding: 0;
+  margin: 20;
+}
+
+.pricing-features li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.featured-card {
+  margin-top: -20px;
+  background-color: #1e3448;
+  z-index: -5;
+  height: 500px; 
+}
+
+.card-title1 {
+  /* margin: 40; */
+}
+
+.card-divider {
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+.card-content {
+  margin-bottom: 10px;
+}
+
+.button-container {
+    text-align: center;
+  }
+  
+  .custom-pricing-button {
+    background-color: white;
+    color: blue;
+    border: 2px solid blue;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 20px;
+    margin-bottom: 120px;
+    width: 200px;
+}
+
+.select-pricing-button {
+    width: 200px;
+    border-radius: 20px;
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  

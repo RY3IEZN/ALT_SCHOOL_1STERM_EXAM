@@ -3,20 +3,38 @@
  *
  * @format
  */
+@font-face {
+  font-family: "Gilroy-Medium";
+  src: url("./asset/fonts/Gilroy-Bold.ttf"), format(".ttf");
+}
+@font-face {
+  font-family: "Gilroy";
+  src: url("./asset/fonts/Gilroy-Regular.ttf"), format(".ttf");
+}
+@font-face {
+  font-family: "Gilroy-semibold";
+  src: url("./asset/fonts/Gilroy-SemiBold.ttf"), format(".ttf");
+}
 
+body {
+  font-family: "Gilroy-Medium";
+}
 header {
   text-align: center;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 20px;
+  margin-left: 170px;
+  margin-right: 170px;
 }
 
 /* Style for the navigation links */
 nav a {
-  margin: 0 10px;
+  /* margin: 0 10px; */
   color: black;
   text-decoration: none;
+  margin-left: 40px;
 }
 
 /* Style for the login button */
@@ -30,8 +48,9 @@ nav a {
   background-color: blue;
   color: white;
   padding: 10px 20px;
+  margin-left: 10px;
   border: none;
-  border-radius: 5px;
+  border-radius: 20px;
   text-decoration: none;
 }
 
@@ -48,6 +67,9 @@ footer {
   display: inline-block;
   margin-right: 20px;
   text-align: left;
+  font-family: "Gilroy-semibold";
+  font-size: 13px;
+  line-height: 1.5;
   vertical-align: top; /* Add this line to align the blocks at the top */
 }
 
@@ -128,10 +150,10 @@ button {
 }
 
 .blue-input::placeholder {
-  color: blue;
+  color: #3284ff;
 }
 .terms-and-conditions {
-  color: blue;
+  color: #3284ff;
 }
 
 .trimsubmitbtn {
@@ -141,6 +163,7 @@ button {
   height: 50px;
   margin-top: 20px;
   margin-bottom: 20px;
+  font-size: 40;
 }
 .getstarted1 {
   background-color: #005ae2;
@@ -148,12 +171,14 @@ button {
   width: 200px;
   height: 50px;
   margin-top: 20px;
+  font-size: 18px;
   margin-bottom: 20px;
 }
 
 /* faq */
 .card-section {
-  margin: 150px;
+  margin-left: 300px;
+  margin-right: 300px;
 }
 
 .card {
@@ -163,6 +188,7 @@ button {
 .card-title {
   margin: 10;
   text-align: left;
+  font-size: 14px;
 }
 
 .card-divider {
@@ -177,19 +203,48 @@ button {
 .faq-title {
   margin-top: 10;
   text-align: center;
+  font-size: 40px;
 }
 
 /* pricnig section */
+.centered-text {
+  text-align: center;
+}
+
+.blue-text {
+  color: #005ae2;
+}
+
 .price-title {
   margin-right: 75;
   margin-left: 75;
   text-align: center;
+  font-size: 40px;
+  margin: 0;
+  margin-bottom: 10px;
+  margin-top: 50px;
+}
+.price-title1 {
+  margin: 0;
+  margin-right: 75;
+  margin-left: 75;
+  text-align: center;
+  font-size: 14px;
+}
+.price-title3{
+  margin-right: 75;
+  margin-left: 75;
+  text-align: center;
+  font-size: 40px;
+  margin: 0;
+  margin-bottom: 10px;
+
 }
 
 .pricing-section {
   display: flex;
   justify-content: space-between;
-  margin: 200px;
+  margin: 100px;
 }
 
 .pricing-card {
@@ -209,7 +264,7 @@ button {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 350px; 
+  height: 420px;
 }
 
 .pricing-features {
@@ -228,11 +283,12 @@ button {
   margin-top: -20px;
   background-color: #1e3448;
   z-index: -5;
-  height: 500px; 
+  height: 500px;
 }
-
-.card-title1 {
-  /* margin: 40; */
+.card-title-pro {
+  margin: 10;
+  text-align: left;
+  color: white;
 }
 
 .card-divider {
@@ -240,34 +296,206 @@ button {
   margin-bottom: 10px;
 }
 
+.icon {
+  display: inline-block;
+  width: 20px; /* Adjust the width as needed */
+  height: 20px; /* Adjust the height as needed */
+  background-image: url("./asset/icons/check-circle.png"); /* Replace "icon.png" with the path to your icon image */
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-right: 5px; /* Adjust the spacing between the icon and text */
+}
+
+.icon2 {
+  display: inline-block;
+  width: 20px; /* Adjust the width as needed */
+  height: 20px; /* Adjust the height as needed */
+  background-image: url("./asset/icons/check-circlewhite.png"); /* Replace "icon.png" with the path to your icon image */
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-right: 5px; /* Adjust the spacing between the icon and text */
+}
+
+.icon3 {
+  display: inline-block;
+  width: 25px; /* Adjust the width as needed */
+  height: 25px; /* Adjust the height as needed */
+  background-image: url("./asset/icons/wand.png"); /* Replace "icon.png" with the path to your icon image */
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-right: 20px; /* Adjust the spacing between the icon and text */
+}
+.icon4 {
+  display: inline-block;
+  width: 50px; /* Adjust the width as needed */
+  height: 50px; /* Adjust the height as needed */
+  background-image: url("./asset/icons/link.png"); /* Replace "icon.png" with the path to your icon image */
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-right: 20px; /* Adjust the spacing between the icon and text */
+  margin-bottom: 20px; /* Adjust the spacing between the icon and text */
+}
+.icon5 {
+  display: inline-block;
+  width: 50px; /* Adjust the width as needed */
+  height: 50px; /* Adjust the height as needed */
+  background-image: url("./asset/icons/edit.png"); /* Replace "icon.png" with the path to your icon image */
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-right: 20px; /* Adjust the spacing between the icon and text */
+  margin-bottom: 20px; /* Adjust the spacing between the icon and text */
+}
+.icon6 {
+  display: inline-block;
+  width: 50px; /* Adjust the width as needed */
+  height: 50px; /* Adjust the height as needed */
+  background-image: url("./asset/icons/apps.png"); /* Replace "icon.png" with the path to your icon image */
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-right: 20px; /* Adjust the spacing between the icon and text */
+  margin-bottom: 20px; /* Adjust the spacing between the icon and text */
+}
+.icon7 {
+  display: inline-block;
+  width: 50px; /* Adjust the width as needed */
+  height: 50px; /* Adjust the height as needed */
+  background-image: url("./asset/icons/health.png"); /* Replace "icon.png" with the path to your icon image */
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-right: 20px; /* Adjust the spacing between the icon and text */
+  margin-bottom: 20px; /* Adjust the spacing between the icon and text */
+}
+.icon8 {
+  display: inline-block;
+  width: 50px; /* Adjust the width as needed */
+  margin: 0;
+  height: 40px; /* Adjust the height as needed */
+  background-image: url("./asset/icons/line7.png"); /* Replace "icon.png" with the path to your icon image */
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-right: -30px;
+}
+.icon9{
+  display: inline-block;
+  width: 150px; /* Adjust the width as needed */
+  margin-bottom: 0px;
+  height: 50px; /* Adjust the height as needed */
+  background-image: url("./asset/icons/underscore.png"); /* Replace "icon.png" with the path to your icon image */
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-right: -30px;
+  justify-content: center;
+  flex: 1;
+  align-items: center;
+}
+
 .card-content {
   margin-bottom: 10px;
 }
 
 .button-container {
-    text-align: center;
-  }
-  
-  .custom-pricing-button {
-    background-color: white;
-    color: blue;
-    border: 2px solid blue;
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-    border-radius: 20px;
-    margin-bottom: 120px;
-    width: 200px;
+  text-align: center;
+}
+
+.custom-pricing-button {
+  background-color: white;
+  color: #005ae2;
+  border: 2px solid #0065fe;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 20px;
+  margin-right: 10px;
+  margin-bottom: 120px;
+  width: 200px;
 }
 
 .select-pricing-button {
-    width: 200px;
-    border-radius: 20px;
-    background-color: blue;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-  }
-  
+  width: 200px;
+  border-radius: 20px;
+  background-color: #0065fe;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* whyc choose secrion  */
+.block-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 100px;
+}
+
+.block {
+  /* width: 250px; */
+  /* height: 200px; */
+  /* background-color: #f1f1f1; */
+  border-radius: 8px;
+}
+
+.block2 {
+  grid-column-start: 2;
+}
+
+.block-title {
+  font-family: Gilroy;
+  margin: 0;
+  align-items: center;
+  justify-items: center;
+}
+/* footerblock */
+footer .block-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 20px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 100px;
+}
+
+footer .block {
+  /* width: 250px; */
+  /* height: 200px; */
+  background-color: #f1f1f1;
+  border-radius: 8px;
+}
+
+footer .block2 {
+  grid-column-start: 2;
+  /*  */
+}
+
+footer .block-titleb {
+  font-family: Gilroy;
+  /* margin: 0; */
+  /* align-items: left; */
+  /* justify-items: flex-start; */
+}
+
+/* title section */
+.sub-title-passage{
+  margin: 0;
+  margin-right: 75;
+  margin-left: 75;
+  text-align: center;
+  font-size: 16px;
+  font-family: Gilroy;
+  font-weight: 500;
+  line-height: 25px;
+}
+
+
+.sub-title-icon{
+  flex: content;
+  margin: 0px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+

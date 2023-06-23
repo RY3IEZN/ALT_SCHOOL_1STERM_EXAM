@@ -1,6 +1,4 @@
 /**
- * Center the header
- *
  * @format
  */
 @font-face {
@@ -36,7 +34,6 @@ header {
 
 /* Style for the navigation links */
 nav a {
-  /* margin: 0 10px; */
   color: black;
   text-decoration: none;
   margin-left: 40px;
@@ -45,13 +42,13 @@ nav a {
 
 /* Style for the login button */
 .login-button {
-  color: blue;
+  color: #3284ff;
   text-decoration: none;
 }
 
 /* Style for the "Try for Free" button */
 .try-button {
-  background-color: blue;
+  background-color: #3284ff;
   color: white;
   padding: 10px 20px;
   margin-left: 10px;
@@ -61,10 +58,8 @@ nav a {
 }
 
 /*footer */
-/*footer */
 /* Center the footer */
 footer {
-  /* text-align: center; */
   margin: 40px;
 }
 
@@ -76,12 +71,12 @@ footer {
   font-family: "Gilroy-semibold";
   font-size: 13px;
   line-height: 1.5;
-  vertical-align: top; /* Add this line to align the blocks at the top */
+  vertical-align: top;
 }
 
 /* Style for the footer icons */
 .footer-block-icons img {
-  width: 30px; /* Adjust the width as needed */
+  width: 30px;
   margin-right: 5px;
 }
 
@@ -89,18 +84,18 @@ footer {
 .footer-text {
   text-align: right;
   font-family: Gilroy-medium;
-  font-size: 15px
+  font-size: 15px;
 }
 
 /* Reduce spacing between items in Solutions block */
 .footer-block h3 {
   font-weight: bold;
-  margin: 0; /* Remove the vertical margin */
+  margin: 0;
 }
 
 .footer-block p {
-  margin: 0; /* Remove the vertical margin */
-  line-height: 1; /* Add this line to prevent line-height spacing */
+  margin: 0;
+  line-height: 1;
 }
 
 /* url testing section */
@@ -151,7 +146,6 @@ button {
 
 .blue-input {
   border: 2px solid #3284ff;
-  /* padding: 10px; */
   border-radius: 10px;
   height: 37px;
 }
@@ -239,14 +233,13 @@ button {
   text-align: center;
   font-size: 14px;
 }
-.price-title3{
+.price-title3 {
   margin-right: 75;
   margin-left: 75;
   text-align: center;
   font-size: 40px;
   margin: 0;
   margin-bottom: 10px;
-
 }
 
 .pricing-section {
@@ -263,7 +256,6 @@ button {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
   align-items: center;
   justify-content: center;
-  /* flex: content; */
   padding: 70;
   margin: 50;
   list-style: none;
@@ -306,89 +298,89 @@ button {
 
 .icon {
   display: inline-block;
-  width: 20px; /* Adjust the width as needed */
-  height: 20px; /* Adjust the height as needed */
-  background-image: url("./asset/icons/check-circle.png"); /* Replace "icon.png" with the path to your icon image */
+  width: 20px;
+  height: 20px;
+  background-image: url("./asset/icons/check-circle.png");
   background-repeat: no-repeat;
   background-size: contain;
-  margin-right: 5px; /* Adjust the spacing between the icon and text */
+  margin-right: 5px;
 }
 
 .icon2 {
   display: inline-block;
-  width: 20px; /* Adjust the width as needed */
-  height: 20px; /* Adjust the height as needed */
-  background-image: url("./asset/icons/check-circlewhite.png"); /* Replace "icon.png" with the path to your icon image */
+  width: 20px;
+  height: 20px;
+  background-image: url("./asset/icons/check-circlewhite.png");
   background-repeat: no-repeat;
   background-size: contain;
-  margin-right: 5px; /* Adjust the spacing between the icon and text */
+  margin-right: 5px;
 }
 
 .icon3 {
   display: inline-block;
-  width: 25px; /* Adjust the width as needed */
-  height: 25px; /* Adjust the height as needed */
-  background-image: url("./asset/icons/wand.png"); /* Replace "icon.png" with the path to your icon image */
+  width: 25px;
+  height: 25px;
+  background-image: url("./asset/icons/wand.png");
   background-repeat: no-repeat;
   background-size: contain;
-  margin-right: 20px; /* Adjust the spacing between the icon and text */
+  margin-right: 20px;
 }
 .icon4 {
   display: inline-block;
-  width: 50px; /* Adjust the width as needed */
-  height: 50px; /* Adjust the height as needed */
-  background-image: url("./asset/icons/link.png"); /* Replace "icon.png" with the path to your icon image */
+  width: 50px;
+  height: 50px;
+  background-image: url("./asset/icons/link.png");
   background-repeat: no-repeat;
   background-size: contain;
-  margin-right: 20px; /* Adjust the spacing between the icon and text */
-  margin-bottom: 20px; /* Adjust the spacing between the icon and text */
+  margin-right: 20px;
+  margin-bottom: 20px;
 }
 .icon5 {
   display: inline-block;
-  width: 50px; /* Adjust the width as needed */
-  height: 50px; /* Adjust the height as needed */
-  background-image: url("./asset/icons/edit.png"); /* Replace "icon.png" with the path to your icon image */
+  width: 50px;
+  height: 50px;
+  background-image: url("./asset/icons/edit.png");
   background-repeat: no-repeat;
   background-size: contain;
-  margin-right: 20px; /* Adjust the spacing between the icon and text */
-  margin-bottom: 20px; /* Adjust the spacing between the icon and text */
+  margin-right: 20px;
+  margin-bottom: 20px;
 }
 .icon6 {
   display: inline-block;
-  width: 50px; /* Adjust the width as needed */
-  height: 50px; /* Adjust the height as needed */
-  background-image: url("./asset/icons/apps.png"); /* Replace "icon.png" with the path to your icon image */
+  width: 50px;
+  height: 50px;
+  background-image: url("./asset/icons/apps.png");
   background-repeat: no-repeat;
   background-size: contain;
-  margin-right: 20px; /* Adjust the spacing between the icon and text */
-  margin-bottom: 20px; /* Adjust the spacing between the icon and text */
+  margin-right: 20px;
+  margin-bottom: 20px;
 }
 .icon7 {
   display: inline-block;
-  width: 50px; /* Adjust the width as needed */
-  height: 50px; /* Adjust the height as needed */
-  background-image: url("./asset/icons/health.png"); /* Replace "icon.png" with the path to your icon image */
+  width: 50px;
+  height: 50px;
+  background-image: url("./asset/icons/health.png");
   background-repeat: no-repeat;
   background-size: contain;
-  margin-right: 20px; /* Adjust the spacing between the icon and text */
-  margin-bottom: 20px; /* Adjust the spacing between the icon and text */
+  margin-right: 20px;
+  margin-bottom: 20px;
 }
 .icon8 {
   display: inline-block;
-  width: 50px; /* Adjust the width as needed */
+  width: 50px;
   margin: 0;
-  height: 40px; /* Adjust the height as needed */
-  background-image: url("./asset/icons/line7.png"); /* Replace "icon.png" with the path to your icon image */
+  height: 40px;
+  background-image: url("./asset/icons/line7.png");
   background-repeat: no-repeat;
   background-size: contain;
   margin-right: -30px;
 }
-.icon9{
+.icon9 {
   display: inline-block;
-  width: 150px; /* Adjust the width as needed */
+  width: 150px;
   margin-bottom: 0px;
-  height: 50px; /* Adjust the height as needed */
-  background-image: url("./asset/icons/underscore.png"); /* Replace "icon.png" with the path to your icon image */
+  height: 50px;
+  background-image: url("./asset/icons/underscore.png");
   background-repeat: no-repeat;
   background-size: contain;
   margin-right: -30px;
@@ -440,9 +432,6 @@ button {
 }
 
 .block {
-  /* width: 250px; */
-  /* height: 200px; */
-  /* background-color: #f1f1f1; */
   border-radius: 8px;
 }
 
@@ -453,17 +442,15 @@ button {
 .block-title {
   font-family: Gilroy-bold;
   margin: 0;
-  font-size: 16px;
 }
 
-.block-title2{
+.block-title2 {
   font-family: Gilroy-semibold;
   margin: 0;
   align-items: center;
   font-size: 25px;
   justify-items: center;
 }
-
 
 /* footerblock */
 footer .block-container {
@@ -481,18 +468,14 @@ footer .block {
 
 footer .block2 {
   grid-column-start: 2;
-  /*  */
 }
 
 footer .block-titleb {
   font-family: Gilroy;
-  /* margin: 0; */
-  /* align-items: left; */
-  /* justify-items: flex-start; */
 }
 
 /* title section */
-.sub-title-passage{
+.sub-title-passage {
   margin: 0;
   margin-right: 75;
   margin-left: 75;
@@ -504,8 +487,7 @@ footer .block-titleb {
   margin-bottom: 50px;
 }
 
-
-.sub-title-icon{
+.sub-title-icon {
   flex: content;
   margin: 0px;
   justify-content: center;
@@ -518,8 +500,8 @@ html {
   transition: scroll-behavior 1s ease-in-out;
 }
 
-.analytics{
-  background-color: #F9FBFD;
+.analytics {
+  background-color: #f9fbfd;
   padding-left: 150px;
   padding-right: 200px;
   display: flex;
@@ -530,35 +512,33 @@ html {
   align-items: center;
 }
 
-.analytics-subtitle{
-font-family: Gilroy-medium;
-font-weight: 500;
+.analytics-subtitle {
+  font-family: Gilroy-medium;
+  font-weight: 500;
 }
 
-.analytics-title{
-font-family: Gilroy-medium;
-font-weight: 600;
-font-size: 32px;
-margin-bottom: 10px;
+.analytics-title {
+  font-family: Gilroy-medium;
+  font-weight: 600;
+  font-size: 32px;
+  margin-bottom: 10px;
 }
 
-.analytics-title2{
-font-family: Gilroy-bold;
-font-weight: bold;
-font-size: 32px;
-margin-bottom: 10px;
+.analytics-title2 {
+  font-family: Gilroy-bold;
+  font-weight: bold;
+  font-size: 32px;
+  margin-bottom: 10px;
 }
 
-
-.footerLogo{
+.footerLogo {
   justify-content: space-between;
   align-items: center;
   flex-direction: row;
   margin-top: 20px;
 }
 
-.ft-subtext{
+.ft-subtext {
   font-family: Gilroy-medium;
   font-size: 16px;
-  /* font-weight: 600; */
 }

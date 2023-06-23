@@ -38,6 +38,7 @@ nav a {
   text-decoration: none;
   margin-left: 40px;
   font-family: Gilroy-medium;
+  position: sticky;
 }
 
 /* Style for the login button */

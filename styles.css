@@ -4,7 +4,7 @@
  * @format
  */
 @font-face {
-  font-family: "Gilroy-Medium";
+  font-family: "Gilroy-bold";
   src: url("./asset/fonts/Gilroy-Bold.ttf"), format(".ttf");
 }
 @font-face {
@@ -16,8 +16,13 @@
   src: url("./asset/fonts/Gilroy-SemiBold.ttf"), format(".ttf");
 }
 
+@font-face {
+  font-family: "Gilroy-medium";
+  src: url("./asset/fonts/Gilroy-Medium.ttf"), format(".ttf");
+}
+
 body {
-  font-family: "Gilroy-Medium";
+  font-family: "Gilroy-bold";
 }
 header {
   text-align: center;
@@ -35,6 +40,7 @@ nav a {
   color: black;
   text-decoration: none;
   margin-left: 40px;
+  font-family: Gilroy-medium;
 }
 
 /* Style for the login button */
@@ -58,7 +64,7 @@ nav a {
 /*footer */
 /* Center the footer */
 footer {
-  text-align: center;
+  /* text-align: center; */
   margin: 40px;
 }
 
@@ -82,7 +88,8 @@ footer {
 /* Style for the footer text */
 .footer-text {
   text-align: right;
-  margin-top: 20px;
+  font-family: Gilroy-medium;
+  font-size: 15px
 }
 
 /* Reduce spacing between items in Solutions block */
@@ -163,7 +170,7 @@ button {
   height: 50px;
   margin-top: 20px;
   margin-bottom: 20px;
-  font-size: 40;
+  font-size: 15px;
 }
 .getstarted1 {
   background-color: #005ae2;
@@ -224,6 +231,7 @@ button {
   margin-bottom: 10px;
   margin-top: 50px;
 }
+
 .price-title1 {
   margin: 0;
   margin-right: 75;
@@ -443,11 +451,20 @@ button {
 }
 
 .block-title {
-  font-family: Gilroy;
+  font-family: Gilroy-bold;
+  margin: 0;
+  font-size: 16px;
+}
+
+.block-title2{
+  font-family: Gilroy-semibold;
   margin: 0;
   align-items: center;
+  font-size: 25px;
   justify-items: center;
 }
+
+
 /* footerblock */
 footer .block-container {
   display: grid;
@@ -459,9 +476,6 @@ footer .block-container {
 }
 
 footer .block {
-  /* width: 250px; */
-  /* height: 200px; */
-  background-color: #f1f1f1;
   border-radius: 8px;
 }
 
@@ -484,9 +498,10 @@ footer .block-titleb {
   margin-left: 75;
   text-align: center;
   font-size: 16px;
-  font-family: Gilroy;
+  font-family: Gilroy-medium;
   font-weight: 500;
   line-height: 25px;
+  margin-bottom: 50px;
 }
 
 
@@ -498,4 +513,52 @@ footer .block-titleb {
   text-align: center;
 }
 
+html {
+  scroll-behavior: smooth;
+  transition: scroll-behavior 1s ease-in-out;
+}
 
+.analytics{
+  background-color: #F9FBFD;
+  padding-left: 150px;
+  padding-right: 200px;
+  display: flex;
+  height: 250px;
+  margin-bottom: 100px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.analytics-subtitle{
+font-family: Gilroy-medium;
+font-weight: 500;
+}
+
+.analytics-title{
+font-family: Gilroy-medium;
+font-weight: 600;
+font-size: 32px;
+margin-bottom: 10px;
+}
+
+.analytics-title2{
+font-family: Gilroy-bold;
+font-weight: bold;
+font-size: 32px;
+margin-bottom: 10px;
+}
+
+
+.footerLogo{
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 20px;
+}
+
+.ft-subtext{
+  font-family: Gilroy-medium;
+  font-size: 16px;
+  /* font-weight: 600; */
+}

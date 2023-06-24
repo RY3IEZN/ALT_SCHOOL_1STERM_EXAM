@@ -19,6 +19,12 @@
   src: url("./asset/fonts/Gilroy-Medium.ttf"), format(".ttf");
 }
 
+@media screen and (max-width: 768px) {
+  /* CSS rules for screens with a maximum width of 768px or smaller */
+  /* Adjust your layout, font sizes, or any other styles as needed */
+}
+
+
 body {
   font-family: "Gilroy-bold";
 }

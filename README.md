@@ -12,7 +12,6 @@ A simple easy and convient to use URL shortner used to shorten links
 
 - _HTML_
 - _CSS_
-- _javascript_
 
 ## Setup/Installation Requirements
 
@@ -24,6 +23,7 @@ A simple easy and convient to use URL shortner used to shorten links
 
 ## Contact
 
-- \_Twitter: https://twitter.com/Nicksters
+- \_Twitter: https://twitter.com/Nickstersz
+- \_Linkedin: https://www.linkedin.com/in/uneku-ejiga-2a771bb1/
 
 \*_Feel free to customize the sections and add more details specific to your project._

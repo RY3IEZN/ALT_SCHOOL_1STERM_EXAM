@@ -1,5 +1,7 @@
 <!-- @format -->
 
+![logo2](https://github.com/RY3IEZN/ALT_SCHOOL_1STERM_EXAM/assets/73601265/2f49cd6e-d7f6-47e8-a8d1-dd2badd4a90c)
+
 # SCISSOR
 
 ## Description

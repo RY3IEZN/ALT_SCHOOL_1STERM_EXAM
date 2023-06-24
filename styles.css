@@ -196,7 +196,10 @@ button {
 .card-title {
   margin: 10;
   text-align: left;
-  font-size: 14px;
+  font-size: 16px;
+  font-family: Gilroy-medium;
+  font-weight: 500;
+  line-height: 25px;
 }
 
 .card-divider {
@@ -398,6 +401,10 @@ button {
 
 .card-content {
   margin-bottom: 10px;
+  font-size: 16px;
+  font-family: Gilroy-medium;
+  font-weight: 500;
+  line-height: 25px;
 }
 
 .button-container {
@@ -546,6 +553,8 @@ html {
 }
 
 .ft-subtext {
-  font-family: Gilroy-medium;
   font-size: 16px;
+  font-family: Gilroy-medium;
+  font-weight: 500;
+  line-height: 20px;
 }
